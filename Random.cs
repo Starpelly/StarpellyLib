@@ -1,6 +1,6 @@
 using System.Linq;
 
-using Pelly.Enums;
+using Pelly.Enums.Strings;
 
 namespace Pelly.Random
 {

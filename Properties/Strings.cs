@@ -1,4 +1,4 @@
-using Pelly.Enums;
+using Pelly.Enums.Strings;
 
 namespace Pelly.Properties
 {
