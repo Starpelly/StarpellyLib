@@ -1,11 +1,11 @@
-# Pelly
+# Starpelly
 Tools for Unity
 
 Simulates the "A" key press every 0.6 seconds:
 ```cs
 using UnityEngine;
 
-using Pelly.OS;
+using Starpelly.OS;
 
 public class test : MonoBehaviour
 {
@@ -22,7 +22,7 @@ public class test : MonoBehaviour
         if (Time.time > action)
         {
             action += period;
-            Windows.KeyPress(Pelly.KeyCode.KEY_A);
+            Windows.KeyPress(Starpelly.KeyCodeWin.KEY_A);
         }
     }
 }
