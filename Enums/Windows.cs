@@ -1,8 +1,8 @@
-using Pelly.Common;
+using Starpelly.Common;
 using System;
 using System.Runtime.InteropServices;
 
-namespace Pelly.Enums.Windows
+namespace Starpelly.Enums.Windows
 {
 	public enum WindowsCursor : int
 	{

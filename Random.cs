@@ -1,8 +1,8 @@
 using System.Linq;
 
-using Pelly.Enums.Strings;
+using Starpelly.Enums.Strings;
 
-namespace Pelly.Random
+namespace Starpelly.Random
 {
     public class Strings
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace Pelly.Properties
+namespace Starpelly.Properties
 {
     public static class Arrays
     {
