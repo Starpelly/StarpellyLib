@@ -1,4 +1,4 @@
-namespace Pelly.Enums.Strings
+namespace Starpelly.Enums.Strings
 {
     public enum StringType : int
     {

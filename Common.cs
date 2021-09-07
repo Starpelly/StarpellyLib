@@ -1,8 +1,8 @@
 using System;
 using System.Runtime.InteropServices;
-using Pelly.Enums.Windows;
+using Starpelly.Enums.Windows;
 
-namespace Pelly.Common
+namespace Starpelly.Common
 {
     [StructLayout(LayoutKind.Sequential)]
     public struct POINT

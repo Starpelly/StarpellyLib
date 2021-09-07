@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace Pelly.Colors
+namespace Starpelly
 {
-    public class Colors : MonoBehaviour
+    public class Colors
     {
         public static string Color2Hex(Color32 color)
         {
@@ -10,6 +10,9 @@ namespace Pelly.Colors
             return hex;
         }
 
+        /// <summary>
+        /// Converts a Hexadecimal Color to an RGB Color.
+        /// </summary>
         public static Color Hex2RGB(string hex)
         {
             hex = hex.Replace("0x", "");//in case the string is formatted 0xFFFFFF

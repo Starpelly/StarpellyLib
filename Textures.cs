@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Pelly.Textures
+namespace Starpelly.Textures
 {
     public static class Draw
     {

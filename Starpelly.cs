@@ -1,4 +1,4 @@
-namespace Pelly
+namespace Starpelly
 {
 	public enum KeyCodeWin : ushort
 	{

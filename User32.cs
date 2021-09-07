@@ -2,10 +2,10 @@ using System;
 using System.Runtime.InteropServices;
 using System.Text;
 
-using Pelly.Common;
-using Pelly.Enums.Windows;
+using Starpelly.Common;
+using Starpelly.Enums.Windows;
 
-namespace Pelly.OS
+namespace Starpelly.OS
 {
     public class User32
     {

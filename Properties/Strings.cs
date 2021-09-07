@@ -1,6 +1,6 @@
-using Pelly.Enums.Strings;
+using Starpelly.Enums.Strings;
 
-namespace Pelly.Properties
+namespace Starpelly.Properties
 {
     public class Strings
     {
