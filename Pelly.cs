@@ -1,6 +1,6 @@
 namespace Pelly
 {
-	public enum KeyCode : ushort
+	public enum KeyCodeWin : ushort
 	{
 		#region Media
 		MEDIA_NEXT_TRACK = 0xb0,

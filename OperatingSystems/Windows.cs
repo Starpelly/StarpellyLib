@@ -40,7 +40,7 @@ namespace Pelly.OS
         /// <summary>
         /// Simulates a real key press passed in.
         /// </summary>
-        public static void KeyPress(KeyCode keyCode)
+        public static void KeyPress(KeyCodeWin keyCode)
         {
             INPUT input = new INPUT
             {

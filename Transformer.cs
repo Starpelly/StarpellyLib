@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Pelly.Transformer
 {
-    public class Scale : MonoBehaviour
+    public class Scale
     {
         public static Vector3 Resize(Vector3 amount, Vector3 direction)
         {
