@@ -1,10 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
+﻿//------------------------------------------------------------
+// Starpelly (the unity library)
+// Homepage: https://starpelly.starpelly.com
+// Do What The F*ck You Want To Public License (© 2004 Sam Hocevar <sam@hocevar.net>)
+//------------------------------------------------------------
+
 using UnityEngine;
 
-namespace Starpelly
+namespace Starpelly.Utils
 {
-    public static class Utils
+    public class Textures
     {
         static Texture2D _whiteTexture;
         public static Texture2D WhiteTexture
@@ -22,6 +26,9 @@ namespace Starpelly
             }
         }
 
+        /// <summary>
+        /// Draws a square on the screen.
+        /// </summary>
         public static void DrawScreenRect(Rect rect, Color color)
         {
             GUI.color = color;
@@ -29,16 +36,19 @@ namespace Starpelly
             GUI.color = Color.white;
         }
 
+        /// <summary>
+        /// Draws a square on the screen with a border.
+        /// </summary>
         public static void DrawScreenRectBorder(Rect rect, float thickness, Color color)
         {
             // Top
-            Utils.DrawScreenRect(new Rect(rect.xMin, rect.yMin, rect.width, thickness), color);
+            DrawScreenRect(new Rect(rect.xMin, rect.yMin, rect.width, thickness), color);
             // Left
-            Utils.DrawScreenRect(new Rect(rect.xMin, rect.yMin, thickness, rect.height), color);
+            DrawScreenRect(new Rect(rect.xMin, rect.yMin, thickness, rect.height), color);
             // Right
-            Utils.DrawScreenRect(new Rect(rect.xMax - thickness, rect.yMin, thickness, rect.height), color);
+            DrawScreenRect(new Rect(rect.xMax - thickness, rect.yMin, thickness, rect.height), color);
             // Bottom
-            Utils.DrawScreenRect(new Rect(rect.xMin, rect.yMax - thickness, rect.width, thickness), color);
+            DrawScreenRect(new Rect(rect.xMin, rect.yMax - thickness, rect.width, thickness), color);
         }
 
         public static Rect GetScreenRect(Vector3 screenPosition1, Vector3 screenPosition2)

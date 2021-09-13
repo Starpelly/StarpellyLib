@@ -1,3 +1,9 @@
+//------------------------------------------------------------
+// Starpelly (the unity library)
+// Homepage: https://starpelly.starpelly.com
+// Do What The F*ck You Want To Public License (© 2004 Sam Hocevar <sam@hocevar.net>)
+//------------------------------------------------------------
+
 namespace Starpelly.Enums.Strings
 {
     public enum StringType : int

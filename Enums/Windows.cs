@@ -1,4 +1,9 @@
-using Starpelly.Common;
+//------------------------------------------------------------
+// Starpelly (the unity library)
+// Homepage: https://starpelly.starpelly.com
+// Do What The F*ck You Want To Public License (© 2004 Sam Hocevar <sam@hocevar.net>)
+//------------------------------------------------------------
+
 using System;
 using System.Runtime.InteropServices;
 
@@ -15,13 +20,13 @@ namespace Starpelly.Enums.Windows
 		/// <summary>
 		/// Obsolete for applications marked version 4.0 or later. 
 		/// </summary>
-		[System.Obsolete]
+		[Obsolete]
 		Icon = 32641,
 		SlashedCircle = 32648,
 		/// <summary>
 		/// Obsolete for applications marked version 4.0 or later. Use FourPointedArrowPointingNorthSouthEastAndWest
 		/// </summary>
-		[System.Obsolete]
+		[Obsolete]
 		Size = 32640,
 		FourPointedArrowPointingNorthSouthEastAndWest = 32646,
 		DoublePointedArrowPointingNortheastAndSouthwest = 32643,

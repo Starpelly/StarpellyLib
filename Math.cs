@@ -1,17 +1,23 @@
+//------------------------------------------------------------
+// Starpelly (the unity library)
+// Homepage: https://starpelly.starpelly.com
+// Do What The F*ck You Want To Public License (© 2004 Sam Hocevar <sam@hocevar.net>)
+//------------------------------------------------------------
+
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
 namespace Starpelly
 {
-    public class Mathp
+    public static class Mathp
     {
         /// <summary>
-        /// Rounds float to nearest quarter.
+        /// Rounds float to nearest interval.
         /// </summary>
-        public static float Round2NearestQuarter(float a)
+        public static float Round2Nearest(float a, float interval)
         {
-            return a = a - (a % 0.25f);
+            return a = a - (a % interval);
         }
 
         /// <summary>
@@ -27,7 +33,6 @@ namespace Starpelly
         /// <summary>
         /// Returns the closest value in a list compared to value given.
         /// </summary>
-        /// <returns></returns>
         public static float GetClosestInList(List<float> list, float compareTo)
         {
             if (list.Count > 0)
@@ -43,7 +48,6 @@ namespace Starpelly
         {
             return number % 1; // this is simple as fuck, but i'm dumb and forget this all the time
         }
-
 
         /// <summary>
         /// Converts two numbers to a range of 0 - 1
@@ -65,6 +69,14 @@ namespace Starpelly
         public static float DeNormalize(float val, float min, float max)
         {
             return (val * (max - min) + min);
+        }
+
+        /// <summary>
+        /// Returns true if a value is within a certain range.
+        /// </summary>
+        public static bool IsWithin(this float val, float min, float max)
+        {
+            return val >= min && val <= max;
         }
     }
 }

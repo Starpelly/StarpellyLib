@@ -1,6 +1,10 @@
-using System;
+//------------------------------------------------------------
+// Starpelly (the unity library)
+// Homepage: https://starpelly.starpelly.com
+// Do What The F*ck You Want To Public License (© 2004 Sam Hocevar <sam@hocevar.net>)
+//------------------------------------------------------------
+
 using System.Runtime.InteropServices;
-using Starpelly.Enums.Windows;
 
 namespace Starpelly.Common
 {
